@@ -2,93 +2,82 @@ const FRIEND_NAME = "Shravani Dhuri"; // Replace with your friend's name
 const SECRET_CODE = "2025"; // You can change this to any code you want
 const TYPING_SPEED = 50;
 
-// Cybersecurity-themed ASCII art collection
-const asciiArtCollection = [
-    `
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⣤⣤⣴⣦⣤⣤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-    ⠀⠀⠀⠀⠀⠀⢀⣤⣾⣿⣿⣿⣿⠿⠿⠿⠿⣿⣿⣿⣿⣶⣤⡀⠀⠀⠀⠀⠀⠀
-    ⠀⠀⠀⠀⣠⣾⣿⣿⡿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⢿⣿⣿⣶⡀⠀⠀⠀⠀
-    ⠀⠀⠀⣴⣿⣿⠟⠁⠀⠀⠀⣶⣶⣶⣶⡆⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣦⠀⠀⠀
-    ⠀⠀⣼⣿⣿⠋⠀⠀⠀⠀⠀⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⣧⠀⠀
-    ⠀⢸⣿⣿⠃⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿⡇⠀
-    ⠀⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⠀
-    ⢀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⡀
-    ⣼⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣧
-    ⢿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿
-    ⠀⢿⣿⡇⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡿⠀
-    ⠀⠘⣿⣷⡀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⠃⠀
-    ⠀⠀⠘⢿⣷⣄⠀⠀⠀⠀⠀⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⣠⣾⡿⠋⠀⠀⠀
-    ⠀⠀⠀⠈⠻⣿⣷⣤⡀⠀⠀⣿⣿⣿⣿⡇⠀⠀⠀⢀⣤⣾⣿⠟⠋⠀⠀⠀⠀⠀
-    ⠀⠀⠀⠀⠀⠈⠙⠿⣿⣶⣴⣿⣿⣿⣿⣿⣶⣶⣿⡿⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠛⠛⠛⠛⠛⠛⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-    `,
-    `
-     _____________________________________
-    |                                     |
-    |  SECURITY LEVEL: MAXIMUM            |
-    |  ENCRYPTION: AES-256                |
-    |  FIREWALL: ACTIVE                   |
-    |  INTRUSION DETECTION: ENABLED       |
-    |  BIRTHDAY MODE: ACTIVATED           |
-    |_____________________________________|
-    `
-];
+// Add some cool hacker symbols
+const hackerSymbols = '⚡☢️⚠️🔓🔒💻🛡️⚔️🔑';
+const encryptedChars = '田【〖〗】〘〙〚〛々㊙️㊗️';
 
 const commands = [
-    "INITIALIZING SYSTEM...",
-    "ESTABLISHING SECURE CONNECTION...",
-    "SCANNING FOR BIRTHDAY PROTOCOLS...",
-    "DETECTING POTENTIAL SECURITY EXPERT...",
-    "ANALYZING ENCRYPTION PATTERNS...",
-    "BYPASSING FIREWALL PROTOCOLS...",
+    "INITIALIZING SECURE SHELL...",
+    "ESTABLISHING SSH CONNECTION...",
     "RUNNING VULNERABILITY SCAN...",
-    "CHECKING PORT STATUS: 80, 443, 22...",
-    "DEPLOYING NEURAL NETWORK...",
-    "ACCESSING CELEBRATION DATABASE...",
-    "COMPILING BIRTHDAY ALGORITHMS...",
-    "> SECURITY CHECK REQUIRED",
-    "PLEASE ENTER ACCESS CODE TO CONTINUE..."
+    "DETECTING POTENTIAL SECURITY EXPERT...",
+    "ANALYZING RSA ENCRYPTION...",
+    "BYPASSING AES-256 PROTOCOLS...",
+    "ACCESSING SECURE DATABASE...",
+    "DEPLOYING QUANTUM ENCRYPTION...",
+    "INITIALIZING BLOCKCHAIN VERIFICATION...",
+    "> SECURITY CLEARANCE REQUIRED",
+    "ENTER ACCESS KEY TO DECRYPT MESSAGE..."
+];
+
+// Add more personalized security messages
+const securityChallenges = [
+    "CHALLENGE 1: PORT SCANNING IN PROGRESS...",
+    "CHALLENGE 2: FIREWALL BREACH ATTEMPTED...",
+    "CHALLENGE 3: ENCRYPTION KEY ANALYSIS...",
+    "FINAL CHALLENGE: QUANTUM CRYPTOGRAPHY TEST"
 ];
 
 const birthdayMessage = [
-    "ACCESS GRANTED!",
-    "EXECUTING BIRTHDAY_PROTOCOL.exe",
-    "DECRYPTING SPECIAL MESSAGE...",
-    "[ENCRYPTION KEY VERIFIED]",
+    "🔓 ACCESS GRANTED! WELCOME SECURITY EXPERT! 🔓",
+    "INITIALIZING CELEBRATION PROTOCOL v2.0",
+    "DEPLOYING ENCRYPTED BIRTHDAY MESSAGE...",
     `DEAR ${FRIEND_NAME},`,
-    "INITIALIZING BIRTHDAY CELEBRATION SEQUENCE",
-    "HAPPY BIRTHDAY TO OUR FUTURE",
-    "CYBERSECURITY EXPERT! 🔒",
-    "MAY YOUR ENCRYPTION BE STRONG",
-    "YOUR FIREWALLS IMPENETRABLE",
-    "AND YOUR PASSWORDS COMPLEX",
-    "KEEP DEBUGGING, KEEP LEARNING",
-    "KEEP HACKING FOR GOOD! 💻",
+    "EXECUTING birthday_wishes.sh 🎂",
+    "HAPPY BIRTHDAY TO OUR BRILLIANT",
+    "FUTURE CYBERSECURITY EXPERT! 🔒",
+    "MAY YOUR FIREWALLS BE UNBREAKABLE",
+    "YOUR ENCRYPTION UNCRACKABLE",
+    "AND YOUR PASSWORDS UNHACKABLE!",
+    "KEEP DEFENDING THE DIGITAL REALM 💻",
+    "AND PURSUING YOUR SECURITY DREAMS!",
     "CELEBRATING YOUR SPECIAL DAY",
-    "IN TRUE HACKER STYLE!",
-    "WITH SECURE WISHES 🔐",
-    "<3"
+    "WITH 256-BIT ENCRYPTED LOVE! 💚",
+    generateEncryptedHeart(),
+    "SECURITY STATUS: MAXIMUM PROTECTION ENABLED",
+    `${hackerSymbols} HAPPY HACKING! ${hackerSymbols.split('').reverse().join('')}`
 ];
 
+function generateEncryptedHeart() {
+    return `
+    ╔═══${encryptedChars[0]}═══╗
+    ║ ${encryptedChars[1]}${encryptedChars[2]}${encryptedChars[3]} ║
+    ║  ❤️  ║
+    ╚════════╝
+    `;
+}
+
+// Enhanced security scan messages with more technical details
 const securityScanMessages = [
-    "SCANNING NETWORK PORTS...",
-    "ANALYZING PACKET DATA...",
-    "CHECKING SSL CERTIFICATES...",
-    "MONITORING FIREWALL STATUS...",
-    "DETECTING INTRUSION ATTEMPTS...",
-    "VERIFYING ENCRYPTION KEYS...",
-    "SECURING COMMUNICATION CHANNELS...",
-    "RUNNING PENETRATION TESTS...",
-    "ANALYZING NETWORK TRAFFIC...",
-    "CHECKING FOR VULNERABILITIES...",
-    "DEPLOYING SECURITY PATCHES...",
-    "UPDATING ENCRYPTION PROTOCOLS..."
+    "SCANNING TCP/UDP PORTS [==================>] PORT 443 SECURE",
+    "ANALYZING PACKET DATA [===========>........] 64-BIT ENCRYPTION",
+    "CHECKING SSL CERTIFICATES [================>] SHA-256 VERIFIED",
+    "MONITORING FIREWALL STATUS [============>...] DMZ PROTECTED",
+    "DETECTING INTRUSION ATTEMPTS [===========>.] 0 THREATS",
+    "VERIFYING SHA-256 HASH [==================>] MATCH CONFIRMED",
+    "SECURING TCP/IP PROTOCOLS [===============>] IPV6 ENABLED",
+    "DEPLOYING NEURAL FIREWALL [==============>] AI ACTIVE",
+    "INITIALIZING ZERO-DAY PROTECTION [========>] PATCHES UPDATED",
+    "RUNNING PENETRATION TESTS [==============>] SYSTEM HARDENED"
 ];
 
 const typingEffect = document.querySelector('.typing-effect');
 const accessForm = document.getElementById('access-form');
 const birthdayMessageDiv = document.getElementById('birthday-message');
 const glitchText = document.querySelector('.glitch-text');
+
+const hackingAnimationChars = '⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏';
+let hackingAnimationFrame = 0;
 
 async function typeText(text, element) {
     for (let i = 0; i < text.length; i++) {
@@ -106,19 +95,39 @@ async function displayCommands() {
     accessForm.classList.remove('hidden');
 }
 
+async function displaySecurityChallenge() {
+    const challenges = document.createElement('div');
+    challenges.className = 'security-challenges';
+    document.body.appendChild(challenges);
+
+    for (const challenge of securityChallenges) {
+        challenges.textContent = challenge;
+        await new Promise(resolve => setTimeout(resolve, 1500));
+        
+        // Add cool hacking effect
+        const progress = document.createElement('div');
+        progress.className = 'challenge-progress';
+        challenges.appendChild(progress);
+        
+        for (let i = 0; i < 20; i++) {
+            progress.textContent += '█';
+            await new Promise(resolve => setTimeout(resolve, 100));
+        }
+    }
+    
+    challenges.textContent = "ALL SECURITY CHALLENGES COMPLETED! 🎉";
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    challenges.remove();
+}
+
 async function displayBirthdayMessage() {
     birthdayMessageDiv.classList.remove('hidden');
     document.querySelector('.ascii-art').classList.remove('hidden');
     createBinaryRain();
-    createHexBackground();
-    createCircuitPattern();
-    createDataStream();
-    createPulseEffect();
+    createHackingAnimation();
+    createEncryptionEffect();
+    await displaySecurityChallenge(); // Add security challenge before message
     updateSecurityScan();
-    
-    // Display random ASCII art
-    const asciiArtDiv = document.querySelector('.ascii-art pre');
-    asciiArtDiv.textContent = asciiArtCollection[Math.floor(Math.random() * asciiArtCollection.length)];
     
     for (const line of birthdayMessage) {
         glitchText.textContent = '';
@@ -190,94 +199,39 @@ function createBinaryRain() {
     binaryRain.innerHTML = html;
 }
 
-function createHexBackground() {
-    const hexChars = '0123456789ABCDEF';
-    const hexContainer = document.createElement('div');
-    hexContainer.className = 'hex-background';
-    
+function createHackingAnimation() {
+    const terminal = document.createElement('div');
+    terminal.className = 'hacking-terminal';
+    terminal.innerHTML = `
+        <div class="terminal-header">
+            <span class="spinner">${hackingAnimationChars[0]}</span>
+            <span class="status">INITIALIZING HACK SEQUENCE...</span>
+        </div>
+    `;
+    document.body.appendChild(terminal);
+
+    setInterval(() => {
+        hackingAnimationFrame = (hackingAnimationFrame + 1) % hackingAnimationChars.length;
+        terminal.querySelector('.spinner').textContent = hackingAnimationChars[hackingAnimationFrame];
+    }, 100);
+}
+
+function createEncryptionEffect() {
+    const encryptionLayer = document.createElement('div');
+    encryptionLayer.className = 'encryption-layer';
+    const characters = 'ABCDEF0123456789';
+    let html = '';
+
     for (let i = 0; i < 100; i++) {
-        const hex = document.createElement('div');
-        hex.className = 'hex-code';
-        hex.style.left = `${Math.random() * 100}%`;
-        hex.style.top = `${Math.random() * 100}%`;
-        hex.style.animationDelay = `${Math.random() * 5}s`;
-        
-        let hexString = '';
-        for (let j = 0; j < 6; j++) {
-            hexString += hexChars[Math.floor(Math.random() * hexChars.length)];
-        }
-        hex.textContent = hexString;
-        hexContainer.appendChild(hex);
+        const char = characters[Math.floor(Math.random() * characters.length)];
+        html += `<span class="hex-char" style="
+            --delay: ${Math.random() * 2}s;
+            --duration: ${1 + Math.random()}s;
+        ">${char}</span>`;
     }
-    
-    document.body.appendChild(hexContainer);
-}
 
-function createCircuitPattern() {
-    const circuit = document.createElement('div');
-    circuit.className = 'circuit-pattern';
-    
-    // Create circuit nodes
-    for (let i = 0; i < 20; i++) {
-        const node = document.createElement('div');
-        node.className = 'circuit-node';
-        node.style.left = `${Math.random() * 100}%`;
-        node.style.top = `${Math.random() * 100}%`;
-        node.style.animationDelay = `${Math.random() * 3}s`;
-        circuit.appendChild(node);
-
-        // Create connecting lines
-        if (i > 0) {
-            const line = document.createElement('div');
-            line.className = 'circuit-line';
-            line.style.width = `${30 + Math.random() * 100}px`;
-            line.style.left = `${Math.random() * 100}%`;
-            line.style.top = `${Math.random() * 100}%`;
-            line.style.transform = `rotate(${Math.random() * 360}deg)`;
-            line.style.animationDelay = `${Math.random() * 2}s`;
-            circuit.appendChild(line);
-        }
-    }
-    
-    document.body.appendChild(circuit);
-}
-
-function createDataStream() {
-    const stream = document.createElement('div');
-    stream.className = 'data-stream';
-    
-    const streamContent = [
-        'GET /secure/', 'POST /auth', 
-        'SSH 22', 'HTTPS 443', 
-        'AES-256', 'RSA-2048',
-        'TCP/IP', 'UDP/853',
-        'DNS/TLS', 'HTTP/3'
-    ];
-    
-    for (let i = 0; i < 15; i++) {
-        const packet = document.createElement('div');
-        packet.className = 'data-packet';
-        packet.textContent = streamContent[Math.floor(Math.random() * streamContent.length)];
-        packet.style.animationDelay = `${Math.random() * 5}s`;
-        packet.style.left = `${Math.random() * 100}%`;
-        stream.appendChild(packet);
-    }
-    
-    document.body.appendChild(stream);
-}
-
-function createPulseEffect() {
-    const pulse = document.createElement('div');
-    pulse.className = 'pulse-container';
-    
-    for (let i = 0; i < 3; i++) {
-        const ring = document.createElement('div');
-        ring.className = 'pulse-ring';
-        ring.style.animationDelay = `${i * 0.5}s`;
-        pulse.appendChild(ring);
-    }
-    
-    document.body.appendChild(pulse);
+    encryptionLayer.innerHTML = html;
+    document.body.appendChild(encryptionLayer);
 }
 
 function updateSecurityScan() {
@@ -294,24 +248,16 @@ document.getElementById('submit-code').addEventListener('click', async () => {
     const password = document.getElementById('password').value;
     if (password === SECRET_CODE) {
         accessForm.classList.add('hidden');
-        typingEffect.textContent = 'AUTHENTICATION SUCCESSFUL...';
-        await new Promise(resolve => setTimeout(resolve, 1000));
-        typingEffect.textContent = 'DECRYPTING SECURE MESSAGE...';
-        await new Promise(resolve => setTimeout(resolve, 1000));
         await displayBirthdayMessage();
     } else {
-        typingEffect.textContent = 'ACCESS DENIED. INVALID SECURITY KEY.';
-        // Add glitch effect to the input
-        const input = document.getElementById('password');
-        input.classList.add('error-shake');
+        typingEffect.textContent = 'ACCESS DENIED. TRY AGAIN.';
         setTimeout(() => {
-            input.classList.remove('error-shake');
-            typingEffect.textContent = 'PLEASE ENTER ACCESS CODE TO CONTINUE...';
+            typingEffect.textContent = 'ENTER ACCESS KEY TO DECRYPT MESSAGE...';
         }, 2000);
     }
 });
 
-// Add enhanced styles
+// Add styles for binary rain
 const style = document.createElement('style');
 style.textContent = `
     .binary-digit {
@@ -326,44 +272,25 @@ style.textContent = `
         to { transform: translateY(100vh); }
     }
 
-    .hex-background {
+    .hacking-terminal {
         position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-        z-index: 1;
-    }
-
-    .hex-code {
-        position: absolute;
-        color: rgba(0, 255, 0, 0.3);
+        top: 20px;
+        right: 20px;
+        background: rgba(0, 20, 0, 0.8);
+        padding: 10px;
+        border: 1px solid #0f0;
+        border-radius: 5px;
         font-family: monospace;
-        font-size: 12px;
-        animation: fade 5s infinite;
+        color: #0f0;
+        z-index: 1000;
     }
 
-    @keyframes fade {
-        0%, 100% { opacity: 0.1; }
-        50% { opacity: 0.3; }
+    .spinner {
+        margin-right: 10px;
+        animation: spin 1s linear infinite;
     }
 
-    .error-shake {
-        animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
-        transform: translate3d(0, 0, 0);
-        backface-visibility: hidden;
-        perspective: 1000px;
-    }
-
-    @keyframes shake {
-        10%, 90% { transform: translate3d(-1px, 0, 0); }
-        20%, 80% { transform: translate3d(2px, 0, 0); }
-        30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
-        40%, 60% { transform: translate3d(4px, 0, 0); }
-    }
-
-    .circuit-pattern {
+    .encryption-layer {
         position: fixed;
         top: 0;
         left: 0;
@@ -373,146 +300,59 @@ style.textContent = `
         z-index: 2;
     }
 
-    .circuit-node {
+    .hex-char {
         position: absolute;
-        width: 6px;
-        height: 6px;
-        background: #00ff00;
-        border-radius: 50%;
-        box-shadow: 0 0 10px #00ff00;
-        animation: pulse 2s infinite;
-    }
-
-    .circuit-line {
-        position: absolute;
-        height: 2px;
-        background: linear-gradient(90deg, transparent, #00ff00, transparent);
-        animation: circuit-flow 3s infinite;
-    }
-
-    .data-stream {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-        z-index: 3;
-    }
-
-    .data-packet {
-        position: absolute;
+        color: #0f0;
+        opacity: 0.5;
         font-family: monospace;
-        font-size: 12px;
-        color: #00ff00;
-        white-space: nowrap;
-        animation: packet-flow 8s linear infinite;
-        opacity: 0.7;
+        animation: float var(--duration) ease-in-out var(--delay) infinite;
     }
 
-    .pulse-container {
+    @keyframes float {
+        0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0.5; }
+        50% { transform: translateY(-20px) rotate(180deg); opacity: 0.8; }
+    }
+
+    .security-challenges {
         position: fixed;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        z-index: 4;
-        pointer-events: none;
+        background: rgba(0, 20, 0, 0.9);
+        padding: 20px;
+        border: 2px solid #0f0;
+        border-radius: 10px;
+        font-family: monospace;
+        color: #0f0;
+        z-index: 1000;
+        text-align: center;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
     }
 
-    .pulse-ring {
-        position: absolute;
-        width: 300px;
-        height: 300px;
-        border: 2px solid #00ff00;
-        border-radius: 50%;
-        animation: pulse-ring 3s linear infinite;
-        opacity: 0;
+    .challenge-progress {
+        margin-top: 10px;
+        color: #0f0;
+        text-shadow: 0 0 5px #0f0;
     }
 
-    @keyframes circuit-flow {
-        0% {
-            opacity: 0;
-            transform: scaleX(0);
-        }
-        50% {
-            opacity: 1;
-            transform: scaleX(1);
-        }
-        100% {
-            opacity: 0;
-            transform: scaleX(0);
-        }
+    .hex-char {
+        text-shadow: 0 0 8px #0f0;
+        font-weight: bold;
     }
 
-    @keyframes packet-flow {
-        0% {
-            transform: translateY(-100%) translateX(-50%);
-            opacity: 0;
-        }
-        10% {
-            opacity: 0.7;
-        }
-        90% {
-            opacity: 0.7;
-        }
-        100% {
-            transform: translateY(100vh) translateX(50%);
-            opacity: 0;
-        }
+    @keyframes glitch-flicker {
+        0% { opacity: 1; }
+        50% { opacity: 0.8; }
+        51% { opacity: 1; }
+        52% { opacity: 0.8; }
+        53% { opacity: 1; }
+        54% { opacity: 0.8; }
+        55% { opacity: 1; }
     }
 
-    @keyframes pulse-ring {
-        0% {
-            transform: scale(0.3);
-            opacity: 0.8;
-        }
-        100% {
-            transform: scale(2);
-            opacity: 0;
-        }
-    }
-
-    @keyframes pulse {
-        0%, 100% {
-            transform: scale(1);
-            opacity: 1;
-        }
-        50% {
-            transform: scale(1.5);
-            opacity: 0.5;
-        }
-    }
-
-    .terminal-container {
-        position: relative;
-        overflow: hidden;
-    }
-
-    .terminal-container::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: linear-gradient(
-            180deg,
-            transparent 50%,
-            rgba(0, 255, 0, 0.1) 51%,
-            transparent 52%
-        );
-        background-size: 100% 4px;
-        animation: scan-lines 4s linear infinite;
-        pointer-events: none;
-    }
-
-    @keyframes scan-lines {
-        0% {
-            transform: translateY(0);
-        }
-        100% {
-            transform: translateY(100%);
-        }
+    .security-challenges {
+        animation: glitch-flicker 2s infinite;
     }
 `;
 document.head.appendChild(style);
