@@ -1,5 +1,5 @@
-const FRIEND_NAME = "Shravani Dhuri"; // Replace with your friend's name
-const SECRET_CODE = "2025"; // You can change this to any code you want
+const FRIEND_NAME = "Shravani"; // Replace with your friend's name
+const SECRET_CODE = "cyber"; // You can change this to any code you want
 const TYPING_SPEED = 50;
 
 // Add some cool hacker symbols
