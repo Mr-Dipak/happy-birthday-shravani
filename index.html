@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBER_BIRTHDAY.exe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-black text-green-500 font-mono min-h-screen flex flex-col items-center justify-center overflow-hidden">
+    <div class="matrix-background"></div>
+    
+    <div class="terminal-container z-10 w-11/12 md:w-3/4 lg:w-2/3 bg-black/90 p-6 rounded-lg border border-green-500 shadow-lg shadow-green-500/20">
+        <div class="terminal-header flex items-center mb-4">
+            <div class="terminal-controls flex gap-2">
+                <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                <div class="w-3 h-3 rounded-full bg-green-600"></div>
+            </div>
+            <div class="ml-4 text-sm opacity-50">birthday_protocol.sh</div>
+        </div>
+        
+        <div id="terminal-output" class="space-y-4">
+            <div class="typing-effect"></div>
+            <div id="access-form" class="hidden">
+                <div class="mb-4">
+                    <label for="password" class="block text-sm mb-2">> ENTER ACCESS CODE:</label>
+                    <input type="text" id="password" class="bg-black border border-green-500 text-green-500 p-2 w-full focus:outline-none focus:ring-1 focus:ring-green-500">
+                </div>
+                <button id="submit-code" class="border border-green-500 px-4 py-2 hover:bg-green-500 hover:text-black transition-all">
+                    EXECUTE
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="birthday-message" class="hidden fixed inset-0 flex flex-col items-center justify-center bg-black/95 z-20">
+        <div class="binary-rain"></div>
+        <div class="security-scan mb-4">
+            <div class="scan-text"></div>
+        </div>
+        <div class="modern-glitch-container mb-8">
+            <div class="glitch-parts">
+                <div class="glitch-part part-top" style="background-image: url('img.jpg')"></div>
+                <div class="glitch-part part-bottom" style="background-image: url('img.jpg')"></div>
+                <div class="glitch-part part-left" style="background-image: url('img.jpg')"></div>
+                <div class="glitch-part part-right" style="background-image: url('img.jpg')"></div>
+            </div>
+            <div class="glitch-base">
+                <img src="img.jpg" alt="Birthday Girl" class="glitch-base-img">
+                <div class="glitch-overlay"></div>
+            </div>
+            <div class="encryption-grid"></div>
+        </div>
+        <div class="ascii-art mb-4 hidden">
+<pre class="text-green-500 text-xs md:text-sm">
+  _____                      _ _           
+ / ____|                    (_) |          
+| (___   ___  ___ _   _ _ __ _| |_ _   _ 
+ \___ \ / _ \/ __| | | | '__| | __| | | |
+ ____) |  __/ (__| |_| | |  | | |_| |_| |
+|_____/ \___|\___|\__,_|_|  |_|\__|\__, |
+                                     __/ |
+                                    |___/ 
+ _____                     _   
+|  __ \                   | |  
+| |__) |_ _ ___ ___ _ __ | |_ 
+|  ___/ _` / __/ __| '_ \| __|
+| |  | (_| \__ \__ \ |_) | |_ 
+|_|   \__,_|___/___/ .__/ \__|
+                    | |        
+                    |_|        
+</pre>
+        </div>
+        <div class="glitch-text text-4xl md:text-6xl text-center"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
